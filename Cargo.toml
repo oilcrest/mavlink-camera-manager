@@ -59,7 +59,7 @@ semver = "1.0"
 thirtyfour = "0.32"
 shellexpand = "3.1"
 tracing = { version = "0.1.40", features = ["log", "async-await"] }
-tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
 tracing-log = "0.2.0"
 tracing-actix-web = "0.7.10"
 tracing-gstreamer = "0.7.0"
@@ -79,7 +79,7 @@ onvif = { git = "https://github.com/lumeohq/onvif-rs", rev = "8e2408db" }
 onvif-schema = { git = "https://github.com/lumeohq/onvif-rs", rev = "8e2408db", package = "schema", features = ["analytics", "devicemgmt", "event", "media", "ptz"] }
 
 anyhow = "1"
-tokio = { version = "1.37", features = ["full"] }
+tokio = { version = "1.44", features = ["full"] }
 enum_dispatch = "0.3.13"
 uuid = { version = "1.8", features = ["v4", "v5", "serde"] }
 ts-rs = { version = "8.1.0", default-features = false, features = ["serde-compat", "uuid-impl"] }
@@ -108,7 +108,7 @@ gst-rtsp-server = { package = "gstreamer-rtsp-server", version = "0.23", feature
 gst-video = { package = "gstreamer-video", version = "0.23", features = ["v1_16"] }
 webrtc-sdp = "0.3.13"
 constcat = "0.5.0"
-glib = "0.20.6"
+glib = "0.20.12"
 
 [target.'cfg(target_os = "linux")'.dependencies]
 v4l = "0.14.0"
