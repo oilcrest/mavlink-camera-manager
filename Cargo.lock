@@ -1214,9 +1214,9 @@ dependencies = [
 
 [[package]]
 name = "crossbeam-channel"
-version = "0.5.14"
+version = "0.5.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "06ba6d68e24814cb8de6bb986db8222d3a027d15872cabc0d18817bc3c0e4471"
+checksum = "82b8f8f868b36967f9606790d1903570de9ceaf870a7bf9fbbd3016d636a2cb2"
 dependencies = [
  "crossbeam-utils",
 ]
@@ -1874,7 +1874,7 @@ dependencies = [
  "futures-io",
  "futures-util",
  "gio-sys 0.20.9",
- "glib 0.20.9",
+ "glib 0.20.12",
  "libc",
  "pin-project-lite",
  "smallvec",
@@ -1963,9 +1963,9 @@ dependencies = [
 
 [[package]]
 name = "glib"
-version = "0.20.9"
+version = "0.20.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "707b819af8059ee5395a2de9f2317d87a53dbad8846a2f089f0bb44703f37686"
+checksum = "ffc4b6e352d4716d84d7dde562dd9aee2a7d48beb872dd9ece7f2d1515b2d683"
 dependencies = [
  "bitflags 2.9.0",
  "futures-channel",
@@ -2103,7 +2103,7 @@ dependencies = [
  "futures-channel",
  "futures-core",
  "futures-util",
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer-sys 0.23.5",
  "itertools 0.13.0",
  "libc",
@@ -2126,7 +2126,7 @@ checksum = "2e9a883eb21aebcf1289158225c05f7aea5da6ecf71fa7f0ff1ce4d25baf004e"
 dependencies = [
  "futures-core",
  "futures-sink",
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-app-sys",
  "gstreamer-base",
@@ -2154,7 +2154,7 @@ checksum = "ad33dd444db0d215ac363164f900f800ffb93361ad8a60840e95e14b7de985e8"
 dependencies = [
  "atomic_refcell",
  "cfg-if",
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-base-sys",
  "libc",
@@ -2180,7 +2180,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7a57013f1af740373c5cbf1602b6ff25238d4a0e300eff179b75676c9c7781e"
 dependencies = [
  "gio",
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-net-sys",
 ]
@@ -2204,7 +2204,7 @@ version = "0.23.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a0a9dde5b72adc7846eaab08374e3a761b09aaafaa8cc91eb73e5482153710b9"
 dependencies = [
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-rtsp-sys",
  "gstreamer-sdp",
@@ -2218,7 +2218,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "832f695a3faa63ed428acd01256c51d8c517202aed25e8bb2839c19c1f0726f4"
 dependencies = [
  "gio",
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-net",
  "gstreamer-rtsp",
@@ -2265,7 +2265,7 @@ version = "0.23.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "57f94ab92cb1dbd6d00e41208ab463b5fbce3eca65a4c9710585fede015a9d65"
 dependencies = [
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-sdp-sys",
 ]
@@ -2314,7 +2314,7 @@ checksum = "ad242d388b63c91652c8157de3b0c1f709e49c941a0aae1952455f6ee326ca2d"
 dependencies = [
  "cfg-if",
  "futures-channel",
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-base",
  "gstreamer-video-sys",
@@ -2343,7 +2343,7 @@ version = "0.23.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4c475e2fa45c6c14b971e2ac40e7bae035f19592cac68c391d12eb659fd1722b"
 dependencies = [
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-sdp",
  "gstreamer-webrtc-sys",
@@ -3203,11 +3203,11 @@ dependencies = [
 
 [[package]]
 name = "matchers"
-version = "0.1.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8263075bb86c5a1b1427b5ae862e8889656f126e9f77c484496e8b47cf5c5558"
+checksum = "d1525a2a28c7f4fa0fc98bb91ae755d1e2d1505079e05539e35bc876b5d65ae9"
 dependencies = [
- "regex-automata 0.1.10",
+ "regex-automata",
 ]
 
 [[package]]
@@ -3262,7 +3262,7 @@ dependencies = [
  "directories",
  "enum_dispatch",
  "futures",
- "glib 0.20.9",
+ "glib 0.20.12",
  "gstreamer 0.23.5",
  "gstreamer-app",
  "gstreamer-rtsp",
@@ -3511,12 +3511,11 @@ dependencies = [
 
 [[package]]
 name = "nu-ansi-term"
-version = "0.46.0"
+version = "0.50.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77a8165726e8236064dbb45459242600304b42a5ea24ee2948e18e023bf7ba84"
+checksum = "7957b9740744892f114936ab4a57b3f487491bbeafaf8083688b16841a4240e5"
 dependencies = [
- "overload",
- "winapi",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -3531,11 +3530,10 @@ dependencies = [
 
 [[package]]
 name = "num-bigint-dig"
-version = "0.8.4"
+version = "0.8.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc84195820f291c7697304f3cbdadd1cb7199c0efc917ff5eafd71225c136151"
+checksum = "e661dda6640fad38e827a6d4a310ff4763082116fe217f279885c97f511bb0b7"
 dependencies = [
- "byteorder",
  "lazy_static",
  "libm",
  "num-integer",
@@ -3689,9 +3687,9 @@ dependencies = [
 
 [[package]]
 name = "openssl"
-version = "0.10.71"
+version = "0.10.75"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5e14130c6a98cd258fdcb0fb6d744152343ff729cbfcb28c656a9d12b999fbcd"
+checksum = "08838db121398ad17ab8531ce9de97b244589089e290a384c900cb9ff7434328"
 dependencies = [
  "bitflags 2.9.0",
  "cfg-if",
@@ -3721,9 +3719,9 @@ checksum = "d05e27ee213611ffe7d6348b942e8f942b37114c00cc03cec254295a4a17852e"
 
 [[package]]
 name = "openssl-sys"
-version = "0.9.106"
+version = "0.9.111"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8bb61ea9811cc39e3c2069f40b8b8e2e70d8569b361f879786cc7ed48b777cdd"
+checksum = "82cab2d520aa75e3c58898289429321eb788c3106963d0dc886ec7a5f4adc321"
 dependencies = [
  "cc",
  "libc",
@@ -3745,12 +3743,6 @@ checksum = "7c26d27bb1aeab65138e4bf7666045169d1717febcc9ff870166be8348b223d0"
 dependencies = [
  "paste",
 ]
-
-[[package]]
-name = "overload"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39"
 
 [[package]]
 name = "paperclip"
@@ -4534,17 +4526,8 @@ checksum = "b544ef1b4eac5dc2db33ea63606ae9ffcfac26c1416a2806ae0bf5f56b201191"
 dependencies = [
  "aho-corasick",
  "memchr",
- "regex-automata 0.4.9",
- "regex-syntax 0.8.5",
-]
-
-[[package]]
-name = "regex-automata"
-version = "0.1.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6c230d73fb8d8c1b9c0b3135c5142a8acee3a0558fb8db5cf1cb65f8d7862132"
-dependencies = [
- "regex-syntax 0.6.29",
+ "regex-automata",
+ "regex-syntax",
 ]
 
 [[package]]
@@ -4555,7 +4538,7 @@ checksum = "809e8dc61f6de73b46c85f4c96486310fe304c434cfa43669d7b40f711150908"
 dependencies = [
  "aho-corasick",
  "memchr",
- "regex-syntax 0.8.5",
+ "regex-syntax",
 ]
 
 [[package]]
@@ -4563,12 +4546,6 @@ name = "regex-lite"
 version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "53a49587ad06b26609c52e423de037e7f57f20d53535d66e08c695f347df952a"
-
-[[package]]
-name = "regex-syntax"
-version = "0.6.29"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1"
 
 [[package]]
 name = "regex-syntax"
@@ -4685,9 +4662,9 @@ dependencies = [
 
 [[package]]
 name = "rsa"
-version = "0.9.8"
+version = "0.9.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "78928ac1ed176a5ca1d17e578a1825f3d81ca54cf41053a592584b020cfd691b"
+checksum = "b8573f03f5883dcaebdfcf4725caa1ecb9c15b2ef50c43a07b816e06799bb12d"
 dependencies = [
  "const-oid",
  "digest",
@@ -5837,9 +5814,9 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.44.1"
+version = "1.44.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f382da615b842244d4b8738c82ed1275e6c5dd90c459a30941cd07080b06c91a"
+checksum = "e6b88822cbe49de4185e3a4cbf8321dd487cf5fe0c5c65695fef6346371e9c48"
 dependencies = [
  "backtrace",
  "bytes",
@@ -6100,14 +6077,14 @@ dependencies = [
 
 [[package]]
 name = "tracing-subscriber"
-version = "0.3.19"
+version = "0.3.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e8189decb5ac0fa7bc8b96b7cb9b2701d60d48805aca84a238004d665fcc4008"
+checksum = "2054a14f5307d601f88daf0553e1cbf472acc4f2c51afab632431cdcd72124d5"
 dependencies = [
  "matchers",
  "nu-ansi-term",
  "once_cell",
- "regex",
+ "regex-automata",
  "serde",
  "serde_json",
  "sharded-slab",
